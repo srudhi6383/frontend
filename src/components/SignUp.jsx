@@ -8,7 +8,7 @@ const SignUp = () => {
     password: '',
     phone_number: '',
     department: '',
-  });
+  })
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
